@@ -36,3 +36,9 @@ input::placeholder{
        color: teal;
        cursor: pointer;
   }
+
+  @media screen and (max-width: 880px) {
+    .main{
+      width: 80%;
+    }
+  }

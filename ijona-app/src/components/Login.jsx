@@ -17,7 +17,7 @@ const Login = () => {
     e.preventDefault();
 
     for (let i = 0; i < data.length; i++) {
-      if (data[i].username === 0) {
+      if (data[i].username == 0) {
         alert("Please enter username");
         break;
       } else if (data[i].username == username) {

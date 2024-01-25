@@ -1,0 +1,41 @@
+table {
+    border:1px solid black;
+      border-collapse: collapse;
+      width: 80%;
+      margin: auto;
+      margin-top: 20px;
+    }
+    
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #DDD;
+    }
+    th{
+        background-color: teal;
+        color: white;
+        font-size: 20px;
+    }
+    
+    tr:hover {background-color: #D6EEEE;}
+
+    .todo_box{
+      width: 50%;
+      margin: auto;
+    }
+    .addBtn{
+      width: 100px;
+      border: none;
+      background-color: teal;
+      color: white;
+      font-size: 18px;
+      padding: 5px;
+      border-radius: 5px;
+    }
+
+
+    @media screen and (max-width: 880px) {
+      .todo_box {
+        width: 80%;
+      }
+    }
