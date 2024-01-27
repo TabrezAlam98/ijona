@@ -82,7 +82,6 @@ const User = () => {
       </div>
       <table>
         <tr>
-          {/* <th>ID</th> */}
           <th>Name</th>
           <th>Address</th>
           <th></th>
